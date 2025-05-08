@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FIELNAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+php_flag output_buffering on

@@ -1,0 +1,209 @@
+body {
+    font-family: Raleway, Arial;
+    min-height: 100vh;
+}
+
+p,
+div {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.stiilogo {
+    margin-top: 3px;
+    padding: 10px;
+    width: 50px;
+    height: auto;
+}
+
+nav a.brand-logo {
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, .2);
+}
+
+nav ul a.home-btn,
+nav ul a.courses-btn,
+nav ul a.about-btn,
+nav ul a.login-btn {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+}
+
+nav ul a.login-btn {
+    text-shadow: 0 2px 3px rgba(0, 0, 0, .3) !important;
+}
+
+.sidenav li a.login-btn {
+    text-shadow: 0 2px 3px rgba(0, 0, 0, .3) !important;
+}
+
+.arrow-icon {
+    margin-left: 0 !important;
+}
+
+.dropdown-content {
+    font-weight: 600;
+}
+
+.dropdown-course,
+.dropdown-course-sidenav {
+    width: auto !important;
+}
+
+.dropdown-content-account,
+.dropdown-content-account-sidenav {
+    width: auto !important;
+}
+
+.dropdown-content li>a>i {
+    margin-right: 10px;
+}
+
+.sidenav li>a>i.material-icons {
+    margin-right: 10px;
+}
+
+.navbutton li>a,
+.dropdown-courseli>a {
+    background-color: white;
+    color: black;
+}
+
+.navbutton a:hover,
+.dropdown-coursea:hover {
+    background-color: rgb(236, 236, 236) !important;
+    color: #1e6dce !important;
+}
+
+ul .sidebar-content li a .home-btn-sn,
+ul .sidebar-content li a .courses-btn-sn,
+ul .sidebar-content li a .about-btn-sn,
+ul .sidebar-content li a .login-btn-sn {
+    font-weight: 700;
+}
+
+ul .sidebar-content li a {
+    font-weight: 600;
+}
+
+.stiibanner {
+    border-radius: 10px;
+    margin-top: 0;
+    width: 100%;
+    margin-right: 50px;
+    height: auto;
+}
+
+.container .main-content-grid .search-section {
+    margin-top: 47px;
+    padding-left: 10px;
+}
+
+
+.search-title {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.search-statement {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.search-container {
+    display: flex;
+    margin-left: 10px;
+    position: relative;
+}
+
+.row .input-field .search-input {
+    flex: 1;
+    font-size: 16px;
+    font-family: Raleway, Arial;
+    font-weight: 500;
+    caret-color: #1e6dce;
+    padding: 0 12px 0 50px;
+    border: 2px solid rgba(0, 0, 0, .5);
+    border-radius: 4px;
+    transition: .15s;
+}
+
+.row .input-field input:focus {
+    border: 2px solid rgb(76, 139, 216) !important;
+    box-shadow: 0 0 0 0 rgb(76, 139, 216) !important;
+}
+
+.search-input::placeholder {
+    font-size: 16px;
+    font-family: Raleway, Arial;
+    color: rgb(153, 153, 153);
+    opacity: 60%;
+    font-weight: 500;
+}
+
+.search-container i {
+    position: absolute;
+    top: 17px;
+    left: 18px;
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+    transition: color .15s;
+}
+
+.search-container input[type=text]:focus+i {
+    color: #1e6dce;
+}
+
+.row .brand-text,
+.row .vision-text,
+.row .mission-text,
+.row .core-values-text {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.brand-title,
+.vision-title,
+.mission-title,
+.core-values-title {
+    margin-top: 0;
+    margin-bottom: 7px;
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+
+.brand-content,
+.vision-content,
+.mission-content,
+.core-values-content {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.core-values-acro {
+    font-weight: 700;
+}
+
+.footer-panel {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 12px;
+}
+
+.footer-text {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}

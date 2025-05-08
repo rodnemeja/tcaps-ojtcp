@@ -1,0 +1,359 @@
+
+/* ======================================================================== */
+/* 16. Icon Service Boxes
+/* ======================================================================== */
+
+.info_service {
+    padding: 20px 0 0;
+}
+
+/* Service Box 1
+====================================*/
+.serviceBox_1{margin-top: 25px;}
+.serviceBox_1 .service-icon{
+    float: left;
+
+}
+.serviceBox_1 .service-icon i{
+    font-size: 34px;
+    color: #727CB6;
+}
+.serviceBox_1 .service-content h3{
+    color: hsl(0, 0%, 20%);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+}
+.serviceBox_1 .service-content{
+    margin-left: 55px;
+}
+.serviceBox_1 .service-content p{
+    color:hsl(0, 0%, 47%);
+    line-height: 24px;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+
+}
+
+/* service Box 2
+====================================*/
+.serviceBox_2{
+    text-align: center;
+    margin-top: 20px;
+}
+.serviceBox_2 .service-icon{
+    border: 2px solid #727CB6;
+    border-radius:100%;
+    width: 90px;
+    height: 90px;
+    line-height: 98px;
+    margin: 0 auto;
+}
+.serviceBox_2 .service-icon i{
+    font-size: 35px;
+    color:#727CB6;
+    transition:all 0.3s ease-in-out 0s;
+
+}
+.serviceBox_2 .service-content h3{
+    color: hsl(0, 0%, 20%);
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 23px 0;
+
+}
+.serviceBox_2 .service-content p{
+    color:hsl(0, 0%, 47%);
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+}
+
+/* service Box 3
+====================================*/
+.serviceBox_3  {
+    padding: 15px 15px 25px;
+    margin:60px auto 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    background:#fff;
+    border:1px solid #4e73df;
+    border-bottom-width:3px ;
+    position:relative;
+}
+.serviceBox_3  .service-icon
+{
+    width:70px;
+    height:70px;
+    line-height:70px;
+    border-radius:4px;
+    border:1px solid #4e73df;
+    background:#fff;
+    color:#727CB6;
+    margin:-48px auto 20px;
+}
+.serviceBox_3,.serviceBox_3 i,
+.serviceBox_3  p,.service-icon,
+.serviceBox_3  :after,.serviceBox_3 h3:before,
+.service-icon:after,
+.service-icon,.service-content{
+    transition: all 0.5s ease-in-out;
+}
+
+.serviceBox_3  p {
+    margin:0 0 15px;
+}
+.serviceBox_3 h3 {
+    font-size: 20px;
+    font-weight:normal;
+    letter-spacing:0.7px;
+    position: relative;
+    margin:20px 0;
+    padding:10px 0;
+    background:none;
+    overflow:hidden;
+}
+.serviceBox_3 h3:before
+{
+    content:"";
+    background:#4e73df;
+    width:0;
+    height:2px;
+    position:absolute;
+    bottom:0;
+    left:50%;
+}
+.serviceBox_3  h3:after
+{
+    content:"";
+    background:#4e73df;
+    width:0;
+    height:2px;
+    position:absolute;
+    bottom:0;
+    right:50%;
+}
+.serviceBox_3:hover h3:after,
+.serviceBox_3:hover h3:before{
+    width:100%;
+}
+.serviceBox_3  i {
+    display: inline-block;
+    font-size:3em;
+    line-height:70px;
+}
+.serviceBox_3:hover .service-icon{
+    background:#4e73df;
+    color:#fff;
+}
+.serviceBox_3 .read{color:#4e73df; }
+.serviceBox_3 .read:hover{color:#21328B; }
+/* service Box 4
+====================================*/
+.grey_bg{
+    background: #EFEFEF;
+}
+.serviceBox_4{
+    padding: 40px 0 0;
+}
+.serviceBox_4{
+    background: none repeat scroll 0 0 #fff;
+    text-align: center;
+}
+.serviceBox_4> span {
+    background: none repeat scroll 0 0 #727CB6;
+    border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    font: bold 40px/18px "arial",sans-serif;
+    height: 88px;
+    line-height: 88px;
+    width: 88px;
+}
+.serviceBox_4> h3{
+    color: #424955;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 35px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.serviceBox_4> p{
+    color: #424955;
+    font: lighter 14px/21px "open sans",sans-serif;
+    padding: 0 35px;
+}
+.serviceBox_4 .read {
+    padding: 25px 0 40px;
+}
+
+.serviceBox_4 .read a{
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #444A6D 0%, #444A6D 50%, #727CB6 50%) repeat scroll 100% 0 / 200% 100%;
+}
+
+.serviceBox_4 .read a:hover{
+    background-position: 0 0;
+}
+
+/* service Box 5
+====================================*/
+.serviceBox_5{
+    margin-bottom: -10px;
+    line-height: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.serviceBox_5 .service-image{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+.serviceBox_5 .service-image > img {
+    width: 100%;
+}
+.serviceBox_5 .service-image:hover{
+    opacity: 0.7;
+    transition: all 0.5s ease 0s;
+}
+.serviceBox_5 .service-content{
+    padding-top: 62px;
+    position: relative;
+}
+.serviceBox_5 .service-content::before {
+    background: hsl(188, 30%, 39%) none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 500px;
+    left: -20%;
+    position: absolute;
+    top: 0;
+    transform: rotate(7deg);
+    transition: all 0.3s ease 0s;
+    width: 400px;
+}
+.serviceBox_5 .service-content::after {
+    background: hsl(188, 30%, 39%) none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 500px;
+    left: 30%;
+    position: absolute;
+    top: 30px;
+    transform: rotate(-35deg);
+    transition: all 0.3s ease 0s;
+    width: 400px;
+}
+
+.serviceBox_5 .service-content .internal::before {
+    background: hsl(188, 35%, 31%) none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 500px;
+    left: -50%;
+    position: absolute;
+    top: 3%;
+    transform: rotate(14deg);
+    transition: all 0.3s ease 0s;
+    width: 400px;
+    z-index: 1;
+}
+.serviceBox_5 .service-content .internal::after {
+    background: hsl(188, 35%, 31%) none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 500px;
+    left: 57%;
+    position: absolute;
+    top: 30px;
+    transform: rotate(-52deg);
+    transition: al
+    l 0.3s ease 0s;
+    width: 400px;
+    z-index: 1;
+}
+.serviceBox_5 .service-content .item_content{
+    background: hsl(188, 35%, 31%) none repeat scroll 0 0;
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+.serviceBox_5 .service-content.bg1::before {
+    background:#4D8D72;
+}
+.serviceBox_5 .service-content.bg1::after {
+    background:#4D8D72;
+}
+
+.serviceBox_5 .service-content.bg1 .internal::before {
+    background:#407A61;
+}
+.serviceBox_5 .service-content.bg1 .internal::after {
+    background:#407A61;
+}
+.serviceBox_5 .service-content.bg1 .item_content{
+    background:#407A61;
+}
+
+.serviceBox_5 .service-content.bg2::before {
+    background:#C2D4A4;
+}
+.serviceBox_5 .service-content.bg2::after {
+    background:#C2D4A4;
+}
+.serviceBox_5 .service-content.bg2 .internal::before {
+    background:#ABBD8C;
+}
+.serviceBox_5 .service-content.bg2 .internal::after {
+    background:#ABBD8C;
+}
+.serviceBox_5 .service-content.bg2 .item_content{
+    background:#ABBD8C;
+}
+
+.serviceBox_5 .service-content.bg3::before {
+    background:#E9DC9F;
+}
+.serviceBox_5 .service-content.bg3::after {
+    background:#E9DC9F;
+}
+.serviceBox_5 .service-content.bg3 .internal::before {
+    background:#D8CC93;
+}
+.serviceBox_5 .service-content.bg3 .internal::after {
+    background:#D8CC93;
+}
+.serviceBox_5 .service-content.bg3 .item_content{
+    background:#D8CC93;
+}
+
+.serviceBox_5 .service-content h3{
+    color: hsl(0, 0%, 100%);
+    font: 400 20px/24px "Trebuchet MS",Tahoma,sans-serif;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.serviceBox_5 .service-content a{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox_5 .service-content a:hover{
+    color:#000000;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+
+}
+.serviceBox_5 .service-content:hover::before {
+    transform: rotate(-7deg);
+}
+.serviceBox_5 .service-content:hover .internal::before {
+    transform: rotate(10deg);
+}
